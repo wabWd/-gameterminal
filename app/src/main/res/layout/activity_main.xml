@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="福袋助手"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用方法：先开启无障碍服务，再打开监测开关。应用只在抖音中识别包含“福袋 / 参与福袋 / 领取福袋”等文字或描述的控件。"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginTop="28dp" />
+
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 打开无障碍设置"
+        android:layout_marginTop="28dp" />
+
+    <Switch
+        android:id="@+id/switchMonitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. 开始监测福袋"
+        android:textSize="18sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="状态：未开启"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="说明：本应用不读取账号密码，不处理验证码，也不绕过平台风控；抖音界面变化后，文字识别可能失效。"
+        android:textSize="13sp"
+        android:layout_marginTop="32dp" />
+</LinearLayout>

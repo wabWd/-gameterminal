@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">福袋助手</string>
+    <string name="service_description">仅在抖音界面中查找包含“福袋”等关键词的可点击控件，并按开关状态自动点击。</string>
+</resources>
